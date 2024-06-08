@@ -1,5 +1,30 @@
 # RAG-with-Knowledge-Graph-and-Llama-Index
 
+# Main Components of Knowledge Graph
+
+Knowledge graphs are typically composed of two main components:
+
+1. **Vertex/Node**: Represents entities or objects in the domain of knowledge. Each node corresponds to a unique entity and is identified by a unique identifier. For example, in a knowledge graph about the Chennai Kings, nodes could have values such as “Philadelphia Phillies” and “Major League Cricket.”
+
+2. **Edge**: Represents the relationship between two nodes. For example, an edge “compete in” might connect the node for “Chennai Kings” to the node for “Major League Cricket.”
+
+## Triplets in Knowledge Graph
+
+A triplet is a basic unit of data in the graph. It consists of three parts:
+
+1. **Subject**: The node that the triplet is about.
+
+2. **Object**: The node that the relationship points to.
+
+3. **Predicate**: The relationship between the subject and the object.
+
+In the following triplet example, “Chennai Kings” is the subject, “compete in” is the predicate, and “Major League Cricket” is the object:
+
+(Chennai Kings) — [compete in] —> (Major League Cricket)
+
+A Knowledge Graph database can efficiently store and query complex graph data by storing triplets.
+
+
 ## Comparing Graph Databases and Vectored Databases
 
 When comparing a graph database and a vectored database, there are several important questions to consider. Here are some key questions to explore:
@@ -22,6 +47,33 @@ When comparing a graph database and a vectored database, there are several impor
 
 In summary, vectored databases and knowledge graphs use different methodologies to store and represent data. While vectored databases are suitable for similarity-based operations, knowledge graphs are designed to capture and analyze complex relationships and dependencies. Choosing the right approach depends on the specific requirements and objectives of your project.
 
+# Comparison Factors
+
+## Data Structure:
+- **Graph Database**: Built to store nodes and edges, excelling at mapping relationships which are treated as a first-class citizen.
+- **Vector Database**: Stores data as numeric arrays.
+
+## Data Retrieval and Analysis:
+- **Graph Database**: Analyzes relationships between entities.
+- **Vector Database**: Good at analyzing patterns.
+
+## Query:
+- **Graph Database**: Queries relationships between entities and complex networks.
+- **Vector Database**: Efficient for similarity search or best match searches.
+
+## Performance:
+- **Graph Database / Knowledge Graph**: Great at processing queries involving relationships.
+- **Vector Database**: Provides fast similarity searches.
+
+## Storage
+
+## Data Structure:
+- **Graph Database**:
+  - Utilizes nodes and edges to represent relationships.
+  - Well-suited to analyze relationships between entities and complex networks.
+- **Vector Database**:
+  - Uses numeric arrays for data storage.
+  - Ideal for similarity search and best match searches.
 
 ### Technology Stack Used:
 
