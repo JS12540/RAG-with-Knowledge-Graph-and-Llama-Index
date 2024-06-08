@@ -54,3 +54,5 @@ Creating a Knowledge Graph usually involves specialized and complex tasks. Howev
 ```python
 storage_context.persist()
 ```
+## Reference Link
+[Implement RAG with Knowledge Graph and Llama Index](https://medium.aiplanet.com/implement-rag-with-knowledge-graph-and-llama-index-6a3370e93cdd)
