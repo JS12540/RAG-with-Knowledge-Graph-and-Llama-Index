@@ -1,6 +1,22 @@
 # RAG-with-Knowledge-Graph-and-Llama-Index
 
+# Vectored Database vs Knowledge Graph
+
+The vectored database approach is used to represent data using numerical vectors and is predominantly used for similarity searches.
+
+- Each entity is represented as a high-dimensional vector, and similarity between entities is calculated based on vector distances.
+- Vectored databases are well-suited for similarity-based operations but may struggle to represent complex relationships and semantic meanings between entities.
+
+In contrast, a knowledge graph is built to capture and represent relationships between objects.
+
+- Knowledge graphs capture complex relationships and dependencies between entities and provide semantic analysis and reasoning capabilities.
+- Knowledge graphs can answer complex queries based on logical operators and can perform advanced reasoning and knowledge discovery.
+
+Graph databases are mainly focused on the pairwise relationships between objects, while vectored databases are concerned with how similar the vectors are.
+
 # Main Components of Knowledge Graph
+
+A knowledge graph is a collection of nodes and edges that represent entities or concepts, and their relationships, such as facts, properties, or categories.
 
 Knowledge graphs are typically composed of two main components:
 
