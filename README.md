@@ -1,5 +1,21 @@
 # RAG-with-Knowledge-Graph-and-Llama-Index
 
+### Technology Stack Used:
+
+1. **LlamaIndex**:
+   - LlamaIndex is an orchestration framework that simplifies the integration of private data with public data for building applications using Large Language Models (LLMs).
+   - It provides tools for data ingestion, indexing, and querying, making it a versatile solution for generative AI needs.
+   - Version used: llama-index 0.10.33
+
+2. **Embedding Model**:
+   - The Embedding Model is required to convert the text into a numerical representation of a piece of information for the provided text.
+   - The representation captures the semantic meaning of what is being embedded, making it robust for many industry applications.
+   - Model used: thenlper/gte-large
+
+3. **LLM**:
+   - The Large Language Model is required to generate a response based on the question and context provided.
+   - Model used: Zephyr 7B beta
+
 # Knowledge Graph Creation with Llama Index
 
 This guide will walk you through creating a knowledge graph using Llama Index. The process involves reading a PDF file, converting it into a structured knowledge graph, storing the embeddings in a graph data repository, and retrieving relevant context to match user queries. The retrieved context is then provided to the LLM to generate responses.
