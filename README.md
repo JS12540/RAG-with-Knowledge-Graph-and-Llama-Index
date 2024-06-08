@@ -40,3 +40,9 @@ Creating a Knowledge Graph usually involves specialized and complex tasks. Howev
 
 - **max_triplets_per_chunk** : it governs the number of relationship triplets processed per data chunk
 - **include_embeddings** : toggles the inclusion of vector embeddings within the index for advanced analytics.
+
+# Graph Visualization
+- pyvis library is used for graphical representation of knowledge graph
+- notebook=True secures graphs compatibility with Jupyter notebook
+- cdn_resources=”in_line” specifies the in-line arrangement of resources
+- directed=True designates graph as a directed entry
