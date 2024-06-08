@@ -33,3 +33,7 @@ This guide will walk you through creating a knowledge graph using Llama Index. T
 ## HuggingFaceInferenceAPI
 - **Purpose**: Module for leveraging Open-Source LLMs (Large Language Models).
 - **Usage**: Integrates with Hugging Face's models for inference tasks.
+
+# Construct the Knowledge Graph Index
+
+Creating a Knowledge Graph usually involves specialized and complex tasks. However, by utilizing the Llama Index (LLM), the KnowledgeGraphIndex, and the GraphStore, we can facilitate the creation of a relatively effective Knowledge Graph from any data source supported by Llama Hub.
