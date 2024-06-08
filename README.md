@@ -37,3 +37,6 @@ This guide will walk you through creating a knowledge graph using Llama Index. T
 # Construct the Knowledge Graph Index
 
 Creating a Knowledge Graph usually involves specialized and complex tasks. However, by utilizing the Llama Index (LLM), the KnowledgeGraphIndex, and the GraphStore, we can facilitate the creation of a relatively effective Knowledge Graph from any data source supported by Llama Hub.
+
+- **max_triplets_per_chunk** : it governs the number of relationship triplets processed per data chunk
+- **include_embeddings** : toggles the inclusion of vector embeddings within the index for advanced analytics.
