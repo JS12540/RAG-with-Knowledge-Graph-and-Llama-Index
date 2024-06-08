@@ -50,3 +50,7 @@ Creating a Knowledge Graph usually involves specialized and complex tasks. Howev
 ## Data Persistence
 - Data Retention plays an instrumental role, particularly when your knowledge graph asnd associated index are intricate or have necessitated significant computational effort for their construction.
 - By persisting the data we can effortlessly retrieve the data for future analysis without the need for a complete rebuild
+
+```python
+storage_context.persist()
+```
