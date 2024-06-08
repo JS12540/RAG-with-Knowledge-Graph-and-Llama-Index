@@ -46,3 +46,7 @@ Creating a Knowledge Graph usually involves specialized and complex tasks. Howev
 - notebook=True secures graphs compatibility with Jupyter notebook
 - cdn_resources=”in_line” specifies the in-line arrangement of resources
 - directed=True designates graph as a directed entry
+
+## Data Persistence
+- Data Retention plays an instrumental role, particularly when your knowledge graph asnd associated index are intricate or have necessitated significant computational effort for their construction.
+- By persisting the data we can effortlessly retrieve the data for future analysis without the need for a complete rebuild
