@@ -1,5 +1,28 @@
 # RAG-with-Knowledge-Graph-and-Llama-Index
 
+## Comparing Graph Databases and Vectored Databases
+
+When comparing a graph database and a vectored database, there are several important questions to consider. Here are some key questions to explore:
+
+1. **Nature of the Data and Relationships**:
+   - What is the nature of the data and its relationships?
+   - Does the data primarily consist of structured or unstructured information?
+   - Are there complex relationships and dependencies between entities?
+
+2. **Querying and Analysis Requirements**:
+   - What are the specific requirements for querying and analysis?
+   - Are efficient similarity searches and recommendations necessary?
+   - Is there a need for complex graph traversals and relationship exploration?
+   - Are semantic analysis and reasoning capabilities crucial?
+   - Is low latency critical for real-time applications?
+   - Are there multiple types of relationships and attributes that need to be captured?
+
+3. **Query Languages, APIs, and Ecosystem Integrations**:
+   - What are the available query languages, APIs, and ecosystem integrations?
+
+In summary, vectored databases and knowledge graphs use different methodologies to store and represent data. While vectored databases are suitable for similarity-based operations, knowledge graphs are designed to capture and analyze complex relationships and dependencies. Choosing the right approach depends on the specific requirements and objectives of your project.
+
+
 ### Technology Stack Used:
 
 1. **LlamaIndex**:
